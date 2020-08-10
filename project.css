@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    display: grid;
+ place-items: center; 
+    background-color: aliceblue;
+    font-size: 62.5%;
+}
+.container{
+    margin: auto;
+    margin-top: 8rem;
+    padding: 4rem;
+    display: grid;
+    grid-gap: 2rem;
+    background-color: #fff;
+     border-radius: .2rem;
+}
+.first-div{
+    margin: auto;
+    width: 1rem;
+    height: 1rem;
+    padding: 2rem;
+    background-color: antiquewhite;
+
+}
+.forms{
+    display: grid;
+    grid-gap: 1rem;
+    font-family: tahoma;
+    font-size: 1rem;
+}
+button{
+    border: none;
+    padding: .3rem 1rem;
+    border-radius: 25%;
+    background-color: #eeee;
+    color:#000;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: 0 7px 10px #0000;
+}
