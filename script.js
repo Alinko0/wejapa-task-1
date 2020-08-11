@@ -9,9 +9,9 @@ function generateR() {
 const random = Math.floor(Math.random()*((values)- 2));
 console.log(random);
 
-const r = random ;
-const g = random  ;
-const b = random ;
+const r = random  * 2;
+const g = random * 1  ;
+const b = random * 5 ;
 const rgba =`rgb(${r},${g},${b})`;
 if (values === "") {
     console.log(values);
