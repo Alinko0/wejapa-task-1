@@ -6,12 +6,11 @@ const container =document.querySelector(".first-div")
 
 function generateR() {
   const values = inputs.value.trim();
-const random = Math.floor(Math.random()*((values)- 2));
-console.log(random);
 
-const r = random ;
-const g = random  ;
-const b = random ;
+
+const r =  Math.floor(Math.random()*(values)) ;
+const g =  Math.floor(Math.random()*(values));
+const b =  Math.floor(Math.random()*(values));
 const rgba =`rgb(${r},${g},${b})`;
 if (values === "") {
     console.log(values);
